@@ -19,9 +19,13 @@ Rails.application.routes.draw do
   # logout
   delete "logout", to: "sessions#destroy"
 
-  #passwords
+  # passwords
   get "password", to: "passwords#edit", as: :edit_password
   patch "password", to: "passwords#update"
+
+  # forgot password
+  get "password/reset", to: "password_resets#new"
+  post "password/reset", to: "password_resets#create"
 
   # GET /
   root to: "main#index"
