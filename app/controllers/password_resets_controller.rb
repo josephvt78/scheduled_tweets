@@ -7,7 +7,7 @@ class PasswordResetsController < ApplicationController
 
         if @user.present?
             # send email
-            PassWordMailer.with(user: @user).reset.deliver_now
+            PasswordMailer.with(user: @user).reset.deliver_now
         end
 
         redirect_to root_path, notice: "If an account with that email was found, was have sent a link to reset your password."
