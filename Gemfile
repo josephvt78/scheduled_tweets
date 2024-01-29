@@ -63,13 +63,16 @@ group :development do
   # gem "spring"
 end
 
-gem "omniauth-twitter", "~> 1.4"
-gem "omniauth-rails_csrf_protection", "~> 1.0"
-
-gem "omniauth", "~> 2.1"
-
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# gem "omniauth-twitter", "~> 1.4"
+# gem "omniauth-rails_csrf_protection", "~> 1.0"
+
+gem "omniauth", ">= 2.1.2"
+# gem "omniauth-twitter", ">= 1.4.0"
+gem 'omniauth-twitter', :github => 'arunagw/omniauth-twitter'
+gem "omniauth-rails_csrf_protection", ">= 1.0.1"
