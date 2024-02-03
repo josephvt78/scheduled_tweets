@@ -1,4 +1,6 @@
 class OmniauthCallbacksController < ApplicationController
+    before_action :require_user_logged_in!
+    
     def twitter
         Rails.logger.info auth
         
