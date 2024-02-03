@@ -20,8 +20,8 @@
     </div>
     <div class="mb-3">
         <%= form.button "Schedule", method: :post, class: "btn btn-primary", data: { turbo: false }, local: true %>
-        <% if form.object.persisted? %>
+        <!--<% if form.object.persisted? %>
             <%= button_to "Delete", form.object, method: :delete, class: "btn btn-outline-danger", data: { turbo: false }, local: true %>
-        <% end %>
+        <% end %> -->
     </div>
 <% end %>
