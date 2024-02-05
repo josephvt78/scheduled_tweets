@@ -284,7 +284,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   omniauth (>= 2.1.2)
-  omniauth-rails_csrf_protection (>= 1.0.1)
+  omniauth-rails_csrf_protection
   omniauth-twitter!
   pg
   puma (>= 5.0)

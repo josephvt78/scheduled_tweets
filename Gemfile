@@ -76,7 +76,8 @@ end
 gem "omniauth", ">= 2.1.2"
 # gem "omniauth-twitter", ">= 1.4.0"
 gem 'omniauth-twitter', :github => 'arunagw/omniauth-twitter'
-gem "omniauth-rails_csrf_protection", ">= 1.0.1"
+gem "omniauth-rails_csrf_protection"
+#, ">= 1.0.1"
 
 # gem "twitter", "~> 8.0"
 
