@@ -84,3 +84,5 @@ gem "omniauth-rails_csrf_protection"
 gem "x", "~> 0.14.1"
 
 gem "sidekiq", "~> 5.2.8"
+
+gem "rack-cors", "~> 2.0"
