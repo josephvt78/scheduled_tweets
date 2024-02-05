@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/arunagw/omniauth-twitter.git
-  revision: ef888ab0d17e598b469e31af0cb5288c931ac35a
-  specs:
-    omniauth-twitter (1.4.0)
-      omniauth-oauth (~> 1.1)
-      rack
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -169,6 +161,9 @@ GEM
     omniauth-rails_csrf_protection (1.0.1)
       actionpack (>= 4.2)
       omniauth (~> 2.0)
+    omniauth-twitter (1.4.0)
+      omniauth-oauth (~> 1.1)
+      rack
     pg (1.5.4)
     psych (5.1.2)
       stringio
@@ -285,7 +280,7 @@ DEPENDENCIES
   jbuilder
   omniauth (>= 2.1.2)
   omniauth-rails_csrf_protection
-  omniauth-twitter!
+  omniauth-twitter (>= 1.4.0)
   pg
   puma (>= 5.0)
   rails (~> 7.1.2)
