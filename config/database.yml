@@ -22,4 +22,4 @@ production:
   database: scheduled_tweets_production
   username: postgres
   password: postgres
-  host: localhost
+  host: postgres://wabpikhgmedtou:7068982c348e657d4eb3132b98fcf5a0aace034
