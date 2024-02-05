@@ -6,14 +6,14 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-  Version: 3.2.0
+  Version: 3.2.2
 
 * System dependencies
 
 * Configuration
 
 * Database creation
-     DB: SQL Lite3 (TODO: need to migrate to PostgreSQL)
+     DB: PostgreSQL
 * Database initialization
 
 * How to run the test suite
